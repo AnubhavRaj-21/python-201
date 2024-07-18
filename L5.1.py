@@ -59,8 +59,25 @@
 
 
 
-#Question 4
-#WAP to find the sum of first n numbers(using while)
-n=int(input("Enter first n numbers: "))
-i=1
-while()
+# #Question 4
+# #WAP to find the sum of first n numbers(using while)
+# n=int(input("Enter first n numbers: "))
+# i=1
+# sum=0
+# while i<=n:
+#     sum+=i
+#     i+=1
+# print(sum)
+
+
+
+#Question 5
+#WAP to find the factorial of first n numbers(using for)
+
+n=int(input("Enter the value of n: "))
+fact=1
+for val in range(1,n+1):
+    fact*=val
+
+print(fact)
+
