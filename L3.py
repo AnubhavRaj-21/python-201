@@ -36,5 +36,5 @@
 #WAP to count no. of students with the "A " grade in a given tuple
 grade_tuple=("C","D","A","A")
 print(grade_tuple.count("A"))
-
+ 
 
